@@ -1,0 +1,69 @@
+.container_position{
+  height: auto;
+  width: 40%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+.logo_size{
+  height: 5vh;
+}
+.home_background{
+  background-image: url("https://images.pexels.com/photos/5442472/pexels-photo-5442472.jpeg?cs=srgb&dl=pexels-the-glorious-studio-5442472.jpg&fm=jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height:100%;
+  background-size: cover;
+  background-position: center;
+}
+.home_container{
+  height: auto;
+  width: 40%;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  margin-left: 3vh;
+  margin-right: auto;
+  flex-direction: column;
+}
+.login_background{
+  background-image: url("https://images.pexels.com/photos/2273483/pexels-photo-2273483.jpeg?cs=srgb&dl=pexels-artem-beliaikin-2273483.jpg&fm=jpg");
+  position: absolute;
+  min-width: 100%;
+  min-height:100%;
+  background-size: cover;
+  background-position: center;
+ }
+.login_banner_background{
+  background-color: rgb(135, 236, 76);
+  box-shadow: 5px 10px 8px #2e2e2e;
+}
+.register_container_background{
+  background-color: rgb(211, 214, 210);
+  box-shadow: 5px 10px 8px #2e2e2e;
+}
+.register_background{
+  background-image: url("https://images.pexels.com/photos/1995730/pexels-photo-1995730.jpeg?cs=srgb&dl=pexels-darwis-alwan-1995730.jpg&fm=jpg");
+  position: absolute;
+  min-width: 100%;
+  min-height:100%;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 600px) {
+  .container_position {
+    width: 80%;
+    margin-top: 10vh;
+  }
+  .home_container{
+    width: 80%;
+    margin-top: 10vh;
+    font-size:x-small;
+    margin-left:auto;
+  }
+}
